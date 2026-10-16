@@ -12,7 +12,7 @@ Build with `bundle exec jekyll build`.
 
 ## Editing
 
-- `_includes/homepage.html`: brief biography, selected papers, and background.
+- `_includes/homepage.html`: brief biography and selected papers.
 - `_layouts/research.html`: navigation and metadata.
 - `assets/css/research.css`: typography and responsive layout.
 - `assets/downloads/Keonsoo_Lee_CV.pdf`: complete CV.
@@ -22,4 +22,4 @@ Paper entries show only the title, author information, publication/review status
 
 Curation remains submitted to IEEE Big Data 2026 and APPLE to ICLR 2027. OptimABS is published at KAIC 2025. APPLE's full author list is unavailable in the supplied anonymous manuscript, so only the applicant's confirmed second-author role appears. No paper links are fabricated.
 
-The site stays on one page. Papers and Background navigate to their respective headings below a sticky header. Real hash links support direct links and browser history. The navigation script adds only the trailing space needed for a heading to reach the top of a tall viewport, preventing both links from stopping at the same page bottom. The old About address redirects to the introduction. GitHub Pages publishes from the main branch at the repository root.
+The site stays on one page: a brief introduction and selected papers. Papers navigates to the paper list; CV opens the full CV. There is no separate Background section. Real hash links support direct links and browser history. The navigation script adds only the trailing space needed to reach a heading in tall viewports. The old About address redirects to the introduction. GitHub Pages publishes from the main branch at the repository root.
