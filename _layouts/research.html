@@ -12,14 +12,25 @@
   <title>{% if page.title != site.title %}{{ page.title | escape }} | {% endif %}{{ site.title | escape }}</title>
   <link rel="canonical" href="{{ page.url | absolute_url }}">
   <link rel="icon" href="{{ '/assets/favicon.svg' | relative_url }}" type="image/svg+xml">
-  <link rel="stylesheet" href="{{ '/assets/css/research.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/research.css' | relative_url }}?v=20261017-nav">
 </head>
 <body>
   <a href="#main" class="skip-link">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner wrap">
+      <a class="wordmark" href="{{ '/' | relative_url }}">Keonsoo Lee</a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="{{ '/' | relative_url }}#research">Papers</a>
+        <a href="{{ '/' | relative_url }}#background">Background</a>
+        <a href="{{ '/assets/downloads/Keonsoo_Lee_CV.pdf' | relative_url }}">CV</a>
+      </nav>
+    </div>
+  </header>
   <main id="main">{{ content }}</main>
   <footer class="site-footer wrap">
     <span>Keonsoo Lee</span>
     <span>Updated October 2026</span>
   </footer>
+  <script src="{{ '/assets/js/research.js' | relative_url }}?v=20261017-nav" defer></script>
 </body>
 </html>
