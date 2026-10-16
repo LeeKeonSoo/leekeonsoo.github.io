@@ -22,4 +22,6 @@ Paper entries show only the title, author information, publication/review status
 
 Curation remains submitted to IEEE Big Data 2026 and APPLE to ICLR 2027. OptimABS is published at KAIC 2025. APPLE's full author list is unavailable in the supplied anonymous manuscript, so only the applicant's confirmed second-author role appears. No paper links are fabricated.
 
-All navigation stays on one page. The old About address redirects to the introduction. GitHub Pages publishes the site from the main branch at the repository root.
+The site is one short page, with direct contact and download links instead of section-jump navigation. The old About address redirects to the introduction. GitHub Pages publishes the site from the main branch at the repository root.
+
+The short page intentionally omits Papers/Background navigation: both hash targets reached the same maximum scroll position in tall browser windows.
