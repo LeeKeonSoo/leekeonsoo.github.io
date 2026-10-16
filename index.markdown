@@ -1,6 +1,7 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
+layout: research
+title: Keonsoo Lee
+description: Small language models, efficient optimization, and trustworthy AI.
+permalink: /
 ---
+{% include homepage.html %}

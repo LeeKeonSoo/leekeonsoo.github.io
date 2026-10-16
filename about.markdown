@@ -1,18 +1,5 @@
 ---
-layout: page
-title: About
+layout: null
 permalink: /about/
 ---
-
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta http-equiv="refresh" content="0; url={{ '/' | relative_url }}#about"><link rel="canonical" href="{{ '/' | absolute_url }}"><title>Keonsoo Lee</title></head><body><p><a href="{{ '/' | relative_url }}#about">Continue to Keonsoo Lee’s homepage</a></p></body></html>
