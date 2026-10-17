@@ -12,27 +12,25 @@
   <title>{% if page.title != site.title %}{{ page.title | escape }} | {% endif %}{{ site.title | escape }}</title>
   <link rel="canonical" href="{{ page.url | absolute_url }}">
   <link rel="icon" href="{{ '/assets/favicon.svg' | relative_url }}" type="image/svg+xml">
-  <link rel="stylesheet" href="{{ '/assets/css/research.css' | relative_url }}?v=20261017-sections">
+  <script>
+    (() => {
+      let theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      try {
+        const saved = localStorage.getItem('homepage-theme');
+        if (saved === 'light' || saved === 'dark') theme = saved;
+      } catch {}
+      document.documentElement.dataset.theme = theme;
+    })();
+  </script>
+  <link rel="stylesheet" href="{{ '/assets/css/research.css' | relative_url }}?v=20261017-theme">
 </head>
 <body>
   <a href="#main" class="skip-link">Skip to content</a>
-  <header class="site-header">
-    <div class="header-inner wrap">
-      <a class="wordmark" href="{{ '/' | relative_url }}">Keonsoo Lee</a>
-      <nav class="main-nav" aria-label="Main navigation">
-        <a href="{{ '/' | relative_url }}#research">Papers</a>
-        <a href="{{ '/' | relative_url }}#education">Education</a>
-        <a href="{{ '/' | relative_url }}#experience">Experience</a>
-        <a href="{{ '/' | relative_url }}#services">Activities</a>
-        <a href="{{ '/assets/downloads/Keonsoo_Lee_CV.pdf' | relative_url }}">CV</a>
-      </nav>
-    </div>
-  </header>
   <main id="main">{{ content }}</main>
   <footer class="site-footer wrap">
     <span>Keonsoo Lee</span>
     <span>Updated October 2026</span>
   </footer>
-  <script src="{{ '/assets/js/research.js' | relative_url }}?v=20261017-sections" defer></script>
+  <script src="{{ '/assets/js/research.js' | relative_url }}?v=20261017-theme" defer></script>
 </body>
 </html>

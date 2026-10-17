@@ -13,7 +13,7 @@ Build with `bundle exec jekyll build`.
 ## Editing
 
 - `_includes/homepage.html`: brief biography, selected papers, education, experience, and teaching/leadership.
-- `_layouts/research.html`: navigation and metadata.
+- `_layouts/research.html`: metadata and initial theme preference.
 - `assets/css/research.css`: typography and responsive layout.
 - `assets/downloads/Keonsoo_Lee_CV.pdf`: complete CV.
 - `assets/downloads/Keonsoo_Lee_Research_Portfolio.pptx`: interview slides.
@@ -22,4 +22,6 @@ Paper entries show only the title, author information, publication/review status
 
 Curation remains submitted to IEEE Big Data 2026 and APPLE to ICLR 2027. OptimABS is published at KAIC 2025. APPLE's full author list is unavailable in the supplied anonymous manuscript, so only the applicant's confirmed second-author role appears. No paper links are fabricated.
 
-The site follows the reference section order: introduction, Selected papers, Education, Experience, and Teaching & Leadership. Education includes KAU and confirmed UNLV non-degree coursework. Experience lists the QAI and DiSC research roles. Teaching & Leadership contains confirmed teaching and student leadership, reached through the concise Activities menu label. These roles are distinct from conference reviewing and other academic service. The existing services hash is retained for direct-link compatibility. Section navigation remains within one page; no Background grouping or empty sections are shown. Real hash links support direct links and browser history. The navigation script adds only the trailing space needed to reach a heading in tall viewports. The old About address redirects to the introduction. GitHub Pages publishes from the main branch at the repository root.
+The site follows the reference section order: introduction, Selected papers, Education, Experience, and Teaching & Leadership. Education includes KAU and confirmed UNLV non-degree coursework. Experience lists the QAI and DiSC research roles. Teaching & Leadership contains teaching and student leadership rather than conference service. The existing services hash remains for direct-link compatibility.
+
+There is no header or section-jump menu. A small light/dark control beside the name follows the system preference initially and remembers an explicit choice locally. Contact and document links remain in the introduction. Direct links use ordinary browser anchors without artificial trailing space. The old About address redirects to the introduction. GitHub Pages publishes from main at the repository root.
